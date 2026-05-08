@@ -1,3 +1,4 @@
+📄 [Versión en Español](./README.es.md)
 # SeriAgent by Fingerprint 🖨️
 
 > An intelligent AI assistant for screen printing management, built for the Oracle ONE AI Immersion Program 2026.
