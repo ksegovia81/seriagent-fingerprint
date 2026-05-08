@@ -8,7 +8,7 @@
 
 SeriAgent is a full-stack web application built with **Oracle APEX** that helps screen printing studios in Paraguay manage orders, troubleshoot technical issues, and answer client questions — all powered by **OCI Generative AI** and **Oracle AI Vector Search**.
 
-This project was developed by **Katherine J.** as part of the **Oracle ONE AI Immersion Program (May 2026)**, focused on **Agentic AI** applied to a real small business context.
+This project was developed by **Katherine S.** as part of the **Oracle ONE AI Immersion Program (May 2026)**, focused on **Agentic AI** applied to a real small business context.
 
 **Business:** [Fingerprint](https://fingerprint.com.py) — a premium serigraphy studio in Asunción, Paraguay.
 
