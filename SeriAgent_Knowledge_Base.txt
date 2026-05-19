@@ -1,0 +1,323 @@
+SERIAGENT BY FINGERPRINT - BASE DE CONOCIMIENTO TÉCNICO
+Estudio de Serigrafía Fingerprint | Asunción, Paraguay
+"Impresiones que dejan huella"
+Contacto: segovia.katherine@gmail.com
+=========================================================
+
+SECCIÓN 1: GUÍA COMPLETA DE CONTEOS DE MALLA
+=========================================================
+
+El conteo de malla (mesh count) determina cuántos hilos por pulgada o centímetro tiene la tela de serigrafía. A mayor número, más finos son los detalles pero menor es el depósito de tinta.
+
+GUÍA RÁPIDA DE SELECCIÓN:
+- 40-60 mesh: Tintas con glitter, tintas especiales en superficies rugosas
+- 80-86 mesh: Depósito grueso de tinta, tintas puff, tintas con brillo
+- 110-120 mesh: Base blanca en telas oscuras, bolsas de tela canvas, remeras de algodón
+- 150-160 mesh: Uso general, colores estándar en telas claras
+- 180-200 mesh: Detalles finos, medios tonos, imágenes fotográficas
+- 230-280 mesh: Detalles muy finos, tintas delgadas, impresión discharge
+- 305+ mesh: Proceso de 4 colores, alta definición
+
+RECOMENDACIONES FINGERPRINT PARA BOLSAS TOTE CANVAS:
+- Base blanca en canvas oscuro: malla 110 (43T)
+- Colores superiores en canvas: malla 150-158 (62T)
+- Detalles finos en canvas: malla 180 (71T)
+
+=========================================================
+SECCIÓN 2: DATOS TÉCNICOS OFICIALES SAATI HI-R MESH (Oct 2024)
+=========================================================
+
+Fuente: Saati S.p.A. - www.saati.com | TDS Rev 2, Octubre 2024
+
+DESCRIPCIÓN: SAATI HI-R es una malla de poliéster monofilamento de alto módulo y baja elongación con tratamiento de superficie por plasma, ideal para todas las aplicaciones tradicionales de serigrafía.
+
+CARACTERÍSTICAS CLAVE:
+- Alta tensión, baja elongación
+- Superior adhesión del estarcido = tiradas más largas
+- Tiempos de exposición más cortos
+- Mantiene detalles finos sin comprometer durabilidad
+- En la mayoría de los casos no requiere desengrasado previo
+- Compatible con todos los tipos de emulsión: Diazo, Dual Cure, Fotopolímero
+
+ESPECIFICACIONES TÉCNICAS (Mesh/Hilo/Área abierta/Depósito de tinta/Tensión):
+- 86 mesh (34/cm): hilo 100 micrones, área abierta 41%, depósito 71 cm3/m2, tensión 35-40 N/cm
+- 110 mesh (43/cm): hilo 80 micrones, área abierta 43%, depósito 57 cm3/m2, tensión 35-37 N/cm
+- 125 mesh (49/cm): hilo 70 micrones, área abierta 40%, depósito 46 cm3/m2, tensión 30-34 N/cm
+- 140 mesh (55/cm): hilo 64 micrones, área abierta 41%, depósito 43 cm3/m2, tensión 26-31 N/cm
+- 158 mesh (62/cm): hilo 64 micrones, área abierta 32%, depósito 34 cm3/m2, tensión 30-34 N/cm
+- 180 mesh (71/cm): hilo 55 micrones, área abierta 33%, depósito 30 cm3/m2, tensión 25-30 N/cm
+- 196 mesh (77/cm): hilo 48 micrones, área abierta 36%, depósito 29 cm3/m2, tensión 24-26 N/cm
+- 230 mesh (90/cm): hilo 40 micrones, área abierta 38%, depósito 24 cm3/m2, tensión 20-24 N/cm
+- 255 mesh (100/cm): hilo 40 micrones, área abierta 31%, depósito 20 cm3/m2, tensión 26-28 N/cm
+- 280 mesh (110/cm): hilo 34 micrones, área abierta 35%, depósito 20 cm3/m2, tensión 22-24 N/cm
+- 305 mesh (120/cm): hilo 31 micrones, área abierta 40%, depósito 19 cm3/m2, tensión 21-24 N/cm
+- 355 mesh (140/cm): hilo 31 micrones, área abierta 28%, depósito 13 cm3/m2, tensión 20-22 N/cm
+- 380 mesh (150/cm): hilo 31 micrones, área abierta 20%, depósito 10 cm3/m2, tensión 22-24 N/cm
+- 420 mesh (165/cm): hilo 27 micrones, área abierta 25%, depósito 12 cm3/m2, tensión 17-21 N/cm
+- 460 mesh (180/cm): hilo 27 micrones, área abierta 20%, depósito 8 cm3/m2, tensión 18-22 N/cm
+- 508 mesh (200/cm): hilo 31 micrones, área abierta 13%, depósito 8 cm3/m2, tensión 23-27 N/cm
+
+=========================================================
+SECCIÓN 3: TIPOS DE TINTA
+=========================================================
+
+TINTA PLASTISOL:
+- El tipo más común. No seca al aire — solo cura con calor.
+- Temperatura de curado: 160°C (320°F) por mínimo 60 segundos.
+- Ideal para: remeras de algodón, mezclas de poliéster, bolsas tote.
+- Ventajas: colores vibrantes, durable, fácil de usar.
+- Desventajas: no es eco-friendly, requiere equipo de curado térmico.
+
+TINTA A BASE DE AGUA (WATER-BASED):
+- Opción eco-friendly. Seca al aire pero debe curarse con calor para resistencia al lavado.
+- Temperatura de curado: 170°C por 90 segundos.
+- Ideal para: telas naturales, canvas, impresión discharge.
+- Ventajas: tacto suave, eco-friendly, funciona muy bien en canvas.
+- Desventajas: se seca en la malla si se deja mucho tiempo.
+
+TINTA DISCHARGE:
+- Elimina el tinte de la tela y lo reemplaza con pigmento.
+- Ideal para: remeras oscuras donde se necesita tacto suave.
+- Requiere activador mezclado antes de imprimir.
+
+RECOMENDACIÓN FINGERPRINT:
+- Bolsas tote canvas: usar tintas water-based (imagen eco-friendly de la marca)
+- Remeras que requieren durabilidad: usar plastisol
+
+=========================================================
+SECCIÓN 4: PROBLEMAS COMUNES Y SOLUCIONES
+=========================================================
+
+GHOSTING (sombra de imagen queda después de recuperar la malla):
+- Causa: tinta secada muy profundo en las fibras de la malla.
+- Solución: usar removedor de haze después de recuperar. Dejar actuar 5 minutos y fregar.
+
+BLEEDING (tinta se extiende más allá de los bordes del diseño):
+- Causa: demasiada presión del rasero, tinta muy líquida, off-contact muy pequeño.
+- Solución: reducir presión, aumentar distancia off-contact a 3-4mm, espesar la tinta.
+
+PINHOLES EN LA IMPRESIÓN:
+- Causa: polvo en la malla, burbujas de aire en la emulsión, subexposición.
+- Solución: limpiar la malla antes de emulsionar, mezclar emulsión lentamente, aumentar tiempo de exposición.
+
+IMPRESIÓN RAYADA:
+- Causa: hoja del rasero dañada, presión desigual, tinta seca en la malla.
+- Solución: reemplazar hoja del rasero, mantener presión pareja, limpiar malla entre tiradas.
+
+POCA OPACIDAD EN TELA OSCURA:
+- Causa: conteo de malla incorrecto, insuficiente depósito de tinta, sin capa base.
+- Solución: usar malla 110 para base blanca, flash cure, luego imprimir color superior.
+
+TINTA SE LAVA DESPUÉS DEL PRIMER LAVADO:
+- Causa: curado incompleto.
+- Solución plastisol: mínimo 160°C durante 60 segundos en toda la capa de tinta. Verificar con termómetro de sonda. La impresión no debe estar pegajosa y debe estirarse levemente sin agrietarse.
+- Solución water-based: 170°C durante 90 segundos.
+
+SANGRADO DE COLOR ENTRE COLORES:
+- Causa: flash cure insuficiente entre colores.
+- Solución: flash cure cada color a 110°C por 5 segundos antes del siguiente color.
+
+=========================================================
+SECCIÓN 5: EMULSIÓN Y CALCULADORA DE EXPOSICIÓN
+=========================================================
+
+QUÉ ES LA EMULSIÓN:
+La emulsión es un químico fotosensible aplicado a la malla de serigrafía. Bloquea el paso de tinta en las áreas expuestas a luz, mientras las partes protegidas por el fotolito permanecen permeables.
+
+EQUIPO NECESARIO:
+- Malla limpia, desengrasada y seca en bastidor
+- Racleta aplicadora de emulsión
+- Emulsión fotopolímero o dual-cure (recomendado: Murakami Aquasol para tintas water-based)
+- Unidad de exposición UV (LED o fluorescente)
+- Cuarto oscuro con luz de seguridad amarilla o roja
+- Calculadora de exposición
+
+PROCESO DE APLICACIÓN:
+1. Trabajar en área con poca luz — usar solo luces de seguridad amarillas o rojas
+2. La malla debe estar perfectamente desengrasada, limpia y seca
+3. Aplicar 1-2 capas en el lado de impresión (el que toca la tela)
+4. Aplicar 1 capa en el lado del rasero
+5. La última capa siempre debe ser en el lado de impresión
+6. Secar horizontalmente en lugar oscuro a temperatura ambiente: 30 a 60 minutos
+7. Se puede usar gabinete de secado para acelerar el proceso
+
+TIEMPOS DE EXPOSICIÓN APROXIMADOS:
+- Unidad LED UV 400W: 60-90 segundos
+- Unidad fluorescente: 3-5 minutos
+- Luz solar (mediodía Paraguay): 30-45 segundos (usar con precaución)
+
+TIPOS DE EMULSIÓN PARA FINGERPRINT:
+- Tintas water-based (bolsas tote canvas): Murakami Aquasol o Saati PHW Red
+- Tintas plastisol (remeras): ChromaBlue o Baselayr Complete
+- Ambos tipos de tinta: Dual-Cure (más versátil)
+
+PROBLEMAS COMUNES DE EMULSIÓN:
+- Pinholes: polvo en malla, subexposición, o burbujas de aire en emulsión
+- Emulsión se lava: sobreexposición o emulsión no completamente seca antes de exponer
+- Poco detalle: subexposición o conteo de malla incorrecto para la complejidad del diseño
+- Emulsión se despega durante la tirada: malla no desengrasada correctamente
+
+Calculadora de exposición gratuita: https://www.anthemprintingsf.com/v/vspfiles/downloads/vector-exposure-calculator.pdf
+
+=========================================================
+SECCIÓN 6: SEPARACIÓN DE COLORES
+=========================================================
+
+QUÉ ES LA SEPARACIÓN DE COLORES:
+Cada color en un diseño requiere una malla separada. Un diseño de 3 colores necesita 3 mallas, cada una con su propio fotolito y capa de emulsión.
+
+SEPARACIÓN SPOT COLOR:
+- Ideal para logos y diseños simples con colores sólidos.
+- Cada color es una capa separada en el software de diseño (Illustrator o GIMP).
+- Exportar cada capa como fotolito en blanco y negro.
+
+SEPARACIÓN HALFTONE:
+- Usada para imágenes fotográficas o degradados.
+- Convierte tonos continuos en puntos de tamaños variables.
+- Requiere mayor conteo de malla (180-230) y registro preciso.
+
+REGISTRO:
+- Todos los colores deben alinearse perfectamente en el sustrato.
+- Usar marcas de registro en todos los fotolitos.
+- En la prensa, alinear cada malla a las marcas antes de imprimir.
+
+TRAPPING:
+- Agregar 0.2-0.5mm de superposición entre colores adyacentes para evitar espacios.
+- Crítico para diseños donde los colores se tocan.
+
+ESTÁNDAR FINGERPRINT: Para diseños en bolsas tote, limitar a 3 colores máximo para mejores resultados y eficiencia de costos.
+
+=========================================================
+SECCIÓN 7: GUÍA DE PRECIOS FINGERPRINT
+=========================================================
+
+Todos los precios en Guaraníes Paraguayos (PYG).
+
+BOLSAS TOTE CANVAS:
+- 1 color, cantidad 50+: Gs. 35,000 por unidad
+- 2 colores, cantidad 50+: Gs. 45,000 por unidad
+- 3 colores, cantidad 50+: Gs. 55,000 por unidad
+- Recargo pedido urgente (menos de 48 horas): +25%
+- Recargo cantidad pequeña (menos de 20 unidades): +30%
+
+REMERAS (cliente provee las remeras):
+- Impresión 1 color: Gs. 15,000 por unidad
+- Impresión 2 colores: Gs. 22,000 por unidad
+- Impresión 3 colores: Gs. 30,000 por unidad
+
+REMERAS (Fingerprint provee las remeras):
+- Agregar Gs. 25,000-45,000 por remera según calidad
+
+STICKERS (vinilo):
+- Pequeño (5x5cm): Gs. 3,000 por unidad
+- Mediano (10x10cm): Gs. 5,000 por unidad
+- Grande (20x20cm): Gs. 9,000 por unidad
+
+SERVICIOS DE DISEÑO:
+- Vectorización de logo: Gs. 80,000-150,000 según complejidad
+- Creación de diseño original: Gs. 150,000-300,000
+- Separación de color (por color): Gs. 20,000
+
+PEDIDO MÍNIMO: 20 unidades para serigrafía. Sin mínimo para stickers.
+
+=========================================================
+SECCIÓN 8: GUÍA DE SEGURIDAD
+=========================================================
+
+VENTILACIÓN:
+- Siempre trabajar en área bien ventilada al usar solventes o removedores de tinta.
+- Usar ventilador extractor al curar tintas plastisol — los humos son dañinos en espacios cerrados.
+- Abrir ventanas y puertas al recuperar mallas con químicos.
+
+SEGURIDAD TÉRMICA:
+- La unidad flash cure alcanza más de 200°C — nunca tocar el elemento calefactor.
+- Mantener materiales inflamables alejados de la unidad flash cure.
+- Usar guantes resistentes al calor al manipular prendas recién curadas.
+- Nunca dejar la unidad flash cure sin supervisión cuando esté encendida.
+
+SEGURIDAD QUÍMICA:
+- El removedor de emulsión y el removedor de haze son cáusticos — usar guantes de goma.
+- Mantener alejado de los ojos — tener estación de lavaojos cerca.
+- Guardar tintas y químicos en lugar fresco y oscuro, alejado de fuentes de calor.
+- Desechar residuos químicos responsablemente — no verter por el desagüe.
+
+ERGONOMÍA:
+- Ajustar la altura de la prensa para evitar tensión en la espalda — la malla debe estar a la altura de la cadera.
+- Tomar descansos cada 2 horas durante tiradas largas.
+
+=========================================================
+SECCIÓN 9: PREGUNTAS FRECUENTES DE CLIENTES
+=========================================================
+
+P: ¿Cuánto tiempo tarda un pedido?
+R: Los pedidos estándar tardan 5-7 días hábiles. Los pedidos urgentes (48 horas) están disponibles con recargo.
+
+P: ¿Qué formato de archivo necesitan para mi diseño?
+R: Preferimos archivos vectoriales: AI, EPS o PDF. También aceptamos PNG de alta resolución (mínimo 300 DPI). No aceptamos JPG para impresión de logos.
+
+P: ¿Pueden igualar exactamente los colores de mi marca?
+R: Podemos mezclar colores Pantone por un costo adicional. Los pedidos estándar usan nuestra coincidencia de tinta más cercana.
+
+P: ¿Cuál es la cantidad mínima de pedido?
+R: Mínimo 20 unidades para serigrafía. Para cantidades menores, recomendamos impresión digital.
+
+P: ¿Cómo lavo los artículos impresos?
+R: Dar vuelta la prenda al revés. Lavar en frío (máximo 30°C). No usar cloro. Secar a baja temperatura o al aire. No planchar directamente sobre la impresión.
+
+P: ¿Pueden imprimir en artículos que yo provea?
+R: Sí. Los artículos deben estar limpios, secos y sin arrugas. No nos responsabilizamos por daños a artículos provistos por el cliente durante la impresión.
+
+P: ¿Ofrecen servicios de diseño?
+R: Sí. Ofrecemos vectorización de logos, creación de diseños originales y servicios de separación de colores.
+
+=========================================================
+SECCIÓN 10: CLIENTES ACTUALES
+=========================================================
+
+MURILLO AUTOSERVICIO:
+- Cliente regular. Prefiere bolsas tote canvas con impresiones de 1 color.
+- Pedido actual: Canvas Tote Launch — 50 bolsas tote — 1 color — En Progreso.
+
+LUMEN SCHOOL:
+- Uniforms y remeras para eventos. Generalmente 2 colores.
+- Pedido actual: Forensic Science Week — 120 remeras — 2 colores — Pendiente.
+
+=========================================================
+SECCIÓN 11: INVENTARIO DE MATERIALES
+=========================================================
+
+TINTAS DISPONIBLES:
+- Tinta Plastisol Blanca: 3 kg en stock (proveedor: Gráfica Total PY)
+- Tinta Water-Based Negra: 5 kg en stock (proveedor: Gráfica Total PY)
+
+MALLAS:
+- Bastidor malla 120: 8 unidades en stock (proveedor: SeriSupply ASU)
+
+EMULSIÓN:
+- Emulsión fotopolímero: 2 litros en stock (proveedor: SeriSupply ASU)
+
+SUSTRATOS:
+- Bolsa tote canvas natural: 150 unidades en stock (proveedor: Telas Asunción)
+
+=========================================================
+SECCIÓN 12: SOBRE FINGERPRINT
+=========================================================
+
+Fingerprint es un estudio premium de serigrafía ubicado en Asunción, Paraguay.
+Slogan: "Impresiones que dejan huella"
+Fundadora: Katherine Segovia
+Email: segovia.katherine@gmail.com
+Marca social: Heñói (programas comunitarios)
+Registro de marca: En trámite en DINAPI
+
+MISIÓN: Ofrecer impresiones de alta calidad con conciencia ambiental, usando tintas water-based y procesos responsables, mientras generamos impacto social a través de la marca Heñói.
+
+ESPECIALIDADES:
+- Bolsas tote canvas con diseños personalizados
+- Remeras para eventos y uniformes corporativos
+- Stickers y vinilo
+- Consultoría técnica en serigrafía
+
+FIN DEL DOCUMENTO
+=========================================================
+SeriAgent by Fingerprint | Asunción, Paraguay | 2026
