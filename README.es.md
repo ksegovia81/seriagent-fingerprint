@@ -1,16 +1,19 @@
 # SeriAgent by Fingerprint 🖨️
 
+📄 [English Version](./README.md)
+
 > Un asistente de inteligencia artificial para la gestión de serigrafía, desarrollado para el Programa de Inmersión en IA de Oracle ONE 2026.
 
 ---
 
 ## ¿Qué es SeriAgent?
 
-SeriAgent es una aplicación web full stack desarrollada con **Oracle APEX** que ayuda a los talleres de serigrafía en Paraguay a gestionar pedidos, resolver problemas técnicos y responder consultas de clientes — todo impulsado por **OCI Generative AI** y **Oracle AI Vector Search**.
+SeriAgent es una aplicación web full stack que ayuda a los talleres de serigrafía en Paraguay a gestionar pedidos, resolver problemas técnicos y responder consultas de clientes — impulsada por **n8n**, **Cohere** y **Oracle APEX**.
 
 Este proyecto fue desarrollado por **Katherine S.** como parte del **Programa de Inmersión en IA de Oracle ONE (mayo 2026)**, con enfoque en **Agentes de IA** aplicados a un negocio real.
 
 **Negocio:** Fingerprint — estudio premium de serigrafía en Asunción, Paraguay.
+**Slogan:** *Impresiones que dejan huella*
 
 ---
 
@@ -29,12 +32,12 @@ SeriAgent automatiza y asiste de forma inteligente en los tres aspectos.
 
 | Funcionalidad | Tecnología | Estado |
 |---|---|---|
-| Panel de Gestión de Pedidos | Oracle APEX + Autonomous DB | ✅ Listo |
-| Seguimiento de Clientes y Materiales | Oracle APEX + SQL | ✅ Listo |
-| Asistente Técnico con IA | OCI Generative AI (RAG) | 🔧 En desarrollo |
-| "Consultá tus Manuales" | Oracle AI Vector Search | 🔧 En desarrollo |
-| Soporte Bilingüe (ES/EN) | Globalización en APEX | ✅ Listo |
-| Generador de Cotizaciones | PL/SQL + Formularios APEX | 🔧 En desarrollo |
+| Panel de Gestión de Pedidos | Oracle APEX + Autonomous DB | ✅ En vivo |
+| Seguimiento de Clientes y Materiales | Oracle APEX + SQL | ✅ En vivo |
+| Asistente Técnico con IA | n8n + Cohere + Vector Store | ✅ En vivo |
+| "Consultá tus Manuales" (RAG) | n8n RAG Flow + Cohere Embeddings | ✅ En vivo |
+| Soporte Bilingüe (ES/EN) | Globalización APEX + Cohere | ✅ En vivo |
+| Generador de Cotizaciones | SeriAgent Chat (Cohere) | ✅ En vivo |
 
 ---
 
@@ -42,9 +45,11 @@ SeriAgent automatiza y asiste de forma inteligente en los tres aspectos.
 
 - **Frontend:** Oracle APEX 24.2 (Low-code, con soporte para Progressive Web App)
 - **Base de datos:** Oracle Autonomous Database (Nivel Always Free)
-- **Capa de IA:** OCI Generative AI — Llama 3 / Command R+
-- **Base de Conocimiento:** Oracle AI Vector Search (pipeline RAG)
-- **Nube:** Oracle Cloud Infrastructure (OCI) — Always Free
+- **Agente de IA:** n8n Cloud + Cohere Command R
+- **Vector Store:** n8n Simple Vector Store (pipeline RAG)
+- **Embeddings:** Cohere Embeddings
+- **Base de Conocimiento:** 12 entradas técnicas incluyendo datos oficiales Saati Hi-R Mesh (Oct 2024)
+- **Nube:** Oracle Cloud Infrastructure (OCI) — Always Free — US East (Ashburn)
 
 ---
 
@@ -72,47 +77,57 @@ FINGERPRINT_KNOWLEDGE (id, doc_title, category, content_text, source_file, date_
 seriagent-fingerprint/
 │
 ├── sql/
-│   ├── 01_create_tables.sql       # Configuración completa del esquema
-│   └── 02_sample_data.sql         # Datos de prueba (Murillo Autoservicio, Lumen School)
+│   ├── seriagent_full_setup.sql          # Esquema completo + datos de prueba
+│   ├── seriagent_knowledge_base.sql      # 12 entradas de conocimiento IA
+│   └── seriagent_saati_exposure.sql      # Datos Saati mesh + exposición
 │
-├── apex/
-│   └── seriagent_export.sql       # Exportación de la aplicación APEX
+├── n8n/
+│   ├── SeriAgent_Flow1_BasesDatos.json   # n8n cargador del Vector Store
+│   └── SeriAgent_Flow2_Chat.json         # n8n flujo del agente de chat
 │
-├── prompts/
-│   └── system_prompt.md           # Prompt del sistema para SeriBot AI
+├── knowledge/
+│   └── SeriAgent_Knowledge_Base.txt      # Documento de conocimiento RAG
 │
-├── README.md                      # Versión en inglés
-└── README.es.md                   # Este archivo
+├── README.md                             # Versión en inglés
+└── README.es.md                          # Este archivo
 ```
 
 ---
 
-## Prompt del Sistema (Personalidad de SeriBot)
+## Cómo Funciona el Agente de IA
 
-SeriBot está configurado como un **experto técnico bilingüe (ES/EN)** en serigrafía. Sus características:
-- Responde automáticamente en el idioma del usuario
-- Proporciona valores técnicos exactos (conteo de mallas, temperaturas de curado, tiempos de exposición)
-- Utiliza terminología local de serigrafía paraguaya
-- Consulta los manuales técnicos cargados antes de responder (RAG)
-- Recuerda al usuario las prácticas de seguridad (ventilación, calor)
+**Flow 1 — Cargador de Conocimiento:**
+1. HTTP Request descarga `SeriAgent_Knowledge_Base.txt` desde GitHub
+2. Cohere Embeddings convierte el texto en vectores
+3. Simple Vector Store guarda los vectores para búsqueda semántica
 
-Ver prompt completo: [`/prompts/system_prompt.md`](./prompts/system_prompt.md)
+**Flow 2 — Agente de Chat:**
+1. El usuario envía un mensaje por el chat
+2. El Agente de IA busca en el Vector Store el conocimiento relevante
+3. Cohere Command R genera una respuesta precisa y contextual
+4. Simple Memory mantiene el contexto de la conversación
+
+**Ejemplos de interacciones reales:**
+- *"¿Qué malla uso para bolsas tote canvas oscuras?"* → Recomienda malla 110 para base, 150-158 para colores superiores
+- *"¿Cuánto cuestan 50 bolsas con 2 colores?"* → Calcula Gs. 2,250,000 automáticamente
+- *"La tinta se lava después del primer lavado"* → Diagnostica curado incompleto, da temperaturas exactas
 
 ---
 
 ## Cómo Ejecutar Este Proyecto
 
-### Opción 1: Sandbox de Oracle APEX (sin funciones de IA)
+### Opción 1: Oracle APEX (Base de datos + Dashboard)
 1. Ir a [apex.oracle.com](https://apex.oracle.com) y solicitar un workspace gratuito
-2. En **SQL Workshop > SQL Scripts**, ejecutar `sql/01_create_tables.sql` y luego `sql/02_sample_data.sql`
-3. En **App Builder**, importar `apex/seriagent_export.sql`
+2. En **SQL Workshop > SQL Scripts**, ejecutar `sql/seriagent_full_setup.sql`
+3. En **App Builder**, crear una app desde la tabla `FINGERPRINT_ORDERS`
 
-### Opción 2: OCI Always Free (funciones de IA completas)
-1. Crear una cuenta gratuita en [oracle.com/cloud/free](https://oracle.com/cloud/free)
-2. Aprovisionar una **Autonomous Database**
-3. Activar **APEX** y **OCI Generative AI** en tu tenancy
-4. Seguir los mismos pasos de importación anteriores
-5. En **Workspace Utilities > Generative AI**, configurar las credenciales de OCI
+### Opción 2: n8n + Cohere (Agente de IA)
+1. Crear una cuenta gratuita en [n8n.io](https://n8n.io)
+2. Importar `n8n/SeriAgent_Flow1_BasesDatos.json`
+3. Importar `n8n/SeriAgent_Flow2_Chat.json`
+4. Agregar tu **API key de Cohere** en ambos flows
+5. Ejecutar el Flow 1 para cargar la base de conocimiento
+6. Abrir el chat en el Flow 2 y empezar a hacer preguntas
 
 ---
 
@@ -127,7 +142,7 @@ Este proyecto conecta su experiencia en tecnología educativa, creación de cont
 ## Contexto del Programa Oracle ONE
 
 - **Programa:** Oracle Next Education (ONE) — Inmersión en IA 2026
-- **Enfoque:** Agentes de IA con Oracle APEX + OCI Generative AI
+- **Enfoque:** Agentes de IA con n8n + Cohere + Oracle APEX
 - **Fechas de Inmersión:** 18–22 de mayo de 2026
 - **Track:** Full Stack Low-Code con Agentes Inteligentes
 
